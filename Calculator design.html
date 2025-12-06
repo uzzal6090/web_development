@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcualtor</title>
+    <style>
+
+        *{
+
+            margin: 0;
+            padding: 0;
+        }
+
+
+        h1{
+
+            text-align: center;
+            color: blue;
+           
+
+        }
+
+
+        .card{
+                margin: 0 auto;
+                max-width: 350px;
+                text-align: center;
+                margin-top: 10px;
+                box-shadow: 0 4px 15px 0 red;
+                transition: 0.2s;
+                font-size: 0;
+                border: 7px blue solid;
+
+        }
+
+        .card:hover{
+
+                box-shadow: 0 15px 34px blue;
+        }
+
+        .calc-head .result{
+
+                width: 335px;
+                height:80px;
+                font-size: 35px;
+                font-weight: bold;
+                text-align: right;
+                padding: 0 5px;
+                letter-spacing:2px ;
+                background-color: gray;
+             
+
+
+        }
+
+            .btn{
+
+                width: 87px;
+                height: 70px;
+                font-weight: bold;
+                font-size: 40px;
+                background-color: red;
+                color: white;
+
+            }
+
+            .btn-style{
+
+                    background-color: black;
+            }
+
+                .btn:hover{
+                    background-color: gray;
+
+                }
+
+    </style>
+
+</head>
+<body>
+<h1>Calculator</h1>
+
+<div class="card">
+
+    <div class="calc-head">
+
+            <input type="text" class="result" maxlength="10">
+
+
+    </div>
+
+    <div class="calculator-body">
+
+        <div>
+            <input type="button" class="btn" value="c">
+            <input type="button" class="btn" value="+/-">
+            <input type="button" class="btn" value="%">
+            <input type="button" class="btn btn-style" value="/">
+
+        </div>
+
+        
+
+        <div>
+            <input type="button" class="btn" value="7">
+            <input type="button" class="btn" value="8">
+            <input type="button" class="btn" value="9">
+            <input type="button" class="btn btn-style" value="x">
+
+        </div>
+
+        <div>
+            <input type="button" class="btn" value="4">
+            <input type="button" class="btn" value="5">
+            <input type="button" class="btn" value="6">
+            <input type="button" class="btn btn-style" value="-">
+
+        </div>
+
+
+        <div>
+            <input type="button" class="btn" value="1">
+            <input type="button" class="btn" value="2">
+            <input type="button" class="btn" value="3">
+            <input type="button" class="btn btn-style" value="*">
+
+        </div>
+
+        <div>
+            <input type="button" class="btn" value="0">
+            <input type="button" class="btn" value=".">
+            <input type="button" class="btn" style="background-color: blue;" value="DEL">
+            <input type="button" class="btn" style="background-color: orange;" value="=">
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+</div>
+
+    
+</body>
+</html>
