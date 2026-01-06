@@ -43,4 +43,4 @@ BSc in Computer Science & Engineering
 Beginner Software Developer  
 
 
-This project is developed for personal and educational purposes.
+
