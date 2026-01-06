@@ -2,6 +2,8 @@
 
 A responsive restaurant website built using HTML, CSS.  
 This project is designed to showcase a restaurant’s menu, services, and basic information with a clean and user-friendly interface.
+# Live view
+http://127.0.0.1:5500/Restaurant%20Project/Restaurant%20project.html
 
 ## 📌 Features
 - Responsive design (mobile & desktop)
